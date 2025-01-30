@@ -67,4 +67,29 @@ class DataCleaning:
             logging.error(f"Error handling duplicates: {e}")
             raise e
 
+    def check_missing_values(self, df):
+        try:
+            logging.info("Checking for missing values...")
+            missing_values = df.isnull().sum()
+            total_missing = missing_values.sum()
+            if total_missing > 0:
+                logging.info(f"Found {total_missing} missing values")
+            else:
+                logging.info("No missing values found")
+            return missing_values
+        except Exception as e:
+            logging.error(f"Error checking for missing values: {e}")
+            raise e
+
+    def handle_missing_values(self, df):
+        try:
+            logging.info("Handling missing values by dropping rows with missing values...")
+            before_drop = df.shape[0]
+            df = df.dropna()
+            after_drop = df.shape[0]
+            logging.info(f"Dropped {before_drop - after_drop} rows with missing values")
+            return df
+        except Exception as e:
+            logging.error(f"Error handling missing values: {e}")
+            raise e
 
