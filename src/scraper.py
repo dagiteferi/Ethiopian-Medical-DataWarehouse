@@ -66,7 +66,7 @@ async def main():
         num_messages_to_scrape = 4000 # Specify the number of messages to scrap
         for channel in channels:
             # Create a CSV file named after the channel
-            csv_filename = f"../data/{channel[1:]}_data.csv" # Remoce '@' from channel name
+            csv_filename = f"../data/{channel[1:]}_data.csv" # delete '@' from channel name
             with open(csv_filename,'a',newline='',encoding='utf-8') as file:
                 writer = csv.writer(file)
                 writer.writerow(['Channel Title' , 'Channel Username' , 'ID' , 'Message' , 'Date' , 'Media Path'])
