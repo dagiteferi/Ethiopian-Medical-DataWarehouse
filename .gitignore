@@ -1,2 +1,7 @@
 data
 week-7
+.env
+src/scraping.log
+scraping_session.session
+scraping_session.session-journal
+photos
