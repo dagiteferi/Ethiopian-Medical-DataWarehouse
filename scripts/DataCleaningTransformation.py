@@ -17,28 +17,28 @@ class DataCleaning:
     def __init__(self):
         self.dataframes = []
     
-    def load_data(self, file_path):
+    def load_data(self, path):
+        logging.info("Loading the data")
         try:
-            logging.info(f"Loading CSV file: {file_path}")
-            if os.path.exists(file_path):
-                df = pd.read_csv(file_path)
-                self.dataframes.append(df)
-                logging.info(f"Loaded {file_path}")
-            else:
-                logging.warning(f"File {file_path} does not exist")
+            df = pd.read_csv(path)
+            self.dataframes.append(df)
+            return df
         except Exception as e:
-            logging.error(f"Error loading CSV file {file_path}: {e}")
-            raise e
+            logging.error(f"Error occurred while loading the data: {e}")
+            return None
 
-    def merge(self):
+    def merge(self, dataframes=None):
         try:
             logging.info("Merging dataframes...")
-            if len(self.dataframes) > 1:
-                merged_df = pd.concat(self.dataframes, ignore_index=True)
+            if dataframes is None:
+                dataframes = self.dataframes
+
+            if len(dataframes) > 1:
+                merged_df = pd.concat(dataframes, ignore_index=True)
                 logging.info("Dataframes merged successfully")
             else:
                 logging.warning("Not enough dataframes to merge")
-                merged_df = self.dataframes[0]
+                merged_df = dataframes[0]
             return merged_df
         except Exception as e:
             logging.error(f"Error merging dataframes: {e}")
