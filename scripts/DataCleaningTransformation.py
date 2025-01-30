@@ -29,18 +29,12 @@ class DataCleaning:
             logging.error(f"Error loading CSV files: {e}")
             raise e
 
-    def merge(self):
+    def merge_the_data_frames(dataframes):
+        logging.info("merging the whole data frames into one big data frame")
         try:
-            logging.info("Merging dataframes...")
-            if len(self.dataframes) > 1:
-                self.merged_df = pd.concat(self.dataframes, ignore_index=True)
-                logging.info("Dataframes merged successfully")
-            else:
-                logging.warning("Not enough dataframes to merge")
-                self.merged_df = self.dataframes[0]
+            return pd.concat(dataframes,ignore_index=True)
         except Exception as e:
-            logging.error(f"Error merging dataframes: {e}")
-            raise e
+            logging.error(f"error occured while merging the dataframes")
     
     def check_duplicates(self):
         try:

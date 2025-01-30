@@ -5,3 +5,6 @@ src/scraping.log
 scraping_session.session
 scraping_session.session-journal
 photos
+data_cleaning.
+__pycache__
+data_cleaning.log
