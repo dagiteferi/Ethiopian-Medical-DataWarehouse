@@ -50,13 +50,21 @@ class DataCleaning:
             duplicates = df.duplicated()
             if duplicates.any():
                 logging.info(f"Found {duplicates.sum()} duplicate rows")
-                df = df.drop_duplicates()
-                logging.info("Duplicates removed")
             else:
                 logging.info("No duplicates found")
-            return df
+            return duplicates
         except Exception as e:
             logging.error(f"Error checking for duplicates: {e}")
+            raise e
+    
+    def handle_duplicates(self, df, duplicates):
+        try:
+            if duplicates.any():
+                df = df.drop_duplicates()
+                logging.info("Duplicates removed")
+            return df
+        except Exception as e:
+            logging.error(f"Error handling duplicates: {e}")
             raise e
 
 
