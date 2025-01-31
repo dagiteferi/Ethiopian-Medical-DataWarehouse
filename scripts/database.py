@@ -21,23 +21,33 @@ logging.basicConfig(
 load_dotenv("../.env")
 
 DB_HOST = os.getenv("DB_HOST")
-DB_NAME = os.getenv("DB_NAME")
+DB_DATABASE = os.getenv("DB_DATABASE")  # Updated to match .env file
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_PORT = os.getenv("DB_PORT")
 
+# Debugging: Print environment variables
+print(f"DB_HOST: {DB_HOST}")
+print(f"DB_DATABASE: {DB_DATABASE}")
+print(f"DB_USER: {DB_USER}")
+print(f"DB_PASSWORD: {DB_PASSWORD}")
+print(f"DB_PORT: {DB_PORT}")
+
 def get_db_connection():
     """ Create and return database engine. """
     try:
-        DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+        DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_DATABASE}"
+        print(f"DATABASE_URL: {DATABASE_URL}")  # Debugging: Print DATABASE_URL
         engine = create_engine(DATABASE_URL)
         with engine.connect() as connection:
             connection.execute(text("SELECT 1"))  # Test connection
-        logging.info("✅ Successfully connected to the PostgreSQL database.")
+        logging.info("Successfully connected to the PostgreSQL database.")
         return engine
     except Exception as e:
-        logging.error(f"❌ Database connection failed: {e}")
+        logging.error(f"Database connection failed: {e}")
         raise
+
+
 
 
 def create_table(engine):
@@ -58,11 +68,10 @@ def create_table(engine):
     try:
         with engine.connect().execution_options(isolation_level="AUTOCOMMIT") as connection:
             connection.execute(text(create_table_query))
-        logging.info("✅ Table 'telegram_messages' created successfully.")
+        logging.info("Table 'telegram_messages' created successfully.")
     except Exception as e:
-        logging.error(f"❌ Error creating table: {e}")
+        logging.error(f"Error creating table: {e}")
         raise
-
 
 def insert_data(engine, cleaned_df):
     """ Inserts cleaned Telegram data into PostgreSQL database. """
@@ -77,7 +86,7 @@ def insert_data(engine, cleaned_df):
         ON CONFLICT (message_id) DO NOTHING;
         """
 
-        with engine.begin() as connection:  # ✅ Auto-commit enabled
+        with engine.begin() as connection:  # Auto-commit enabled
             for _, row in cleaned_df.iterrows():
                 # Debug log to ensure data is being inserted
                 logging.info(f"Inserting: {row['message_id']} - {row['message_date']}")
@@ -89,15 +98,16 @@ def insert_data(engine, cleaned_df):
                         "channel_username": row["channel_username"],
                         "message_id": row["message_id"],
                         "message": row["message"],
-                        "message_date": row["message_date"],  # ✅ No NaT values
+                        "message_date": row["message_date"],  # No NaT values
                         "media_path": row["media_path"],
                         "emoji_used": row["emoji_used"],
                         "youtube_links": row["youtube_links"]
                     }
                 )
 
-        logging.info(f"✅ {len(cleaned_df)} records inserted into PostgreSQL database.")
+        logging.info(f"{len(cleaned_df)} records inserted into PostgreSQL database.")
     except Exception as e:
-        logging.error(f"❌ Error inserting data: {e}")
+        logging.error(f"Error inserting data: {e}")
         raise
+
 
