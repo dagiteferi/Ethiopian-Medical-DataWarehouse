@@ -1,4 +1,4 @@
--- models/example/transform_messages.sql
+
 
 with cleaned_data as (
     select
