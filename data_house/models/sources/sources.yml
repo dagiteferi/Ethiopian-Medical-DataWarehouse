@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: telegram_data
+    schema: public
+    tables:
+      - name: telegram_messages

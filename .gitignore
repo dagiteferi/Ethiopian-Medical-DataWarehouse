@@ -1,9 +1,10 @@
 data
 week-7
 .env
-data_house
+
 scraping_session.session
 scraping_session.session-journal
 photos
 data_cleaning.
 __pycache__
+C:\Users\Dagi\.dbt\profiles.yml 
