@@ -27,22 +27,7 @@ class DetectionDataCleaning:
             logging.error(f"Error occurred while loading the data: {e}")
             return None
 
-    def merge(self, dataframes=None):
-        try:
-            logging.info("Merging dataframes...")
-            if dataframes is None:
-                dataframes = self.dataframes
-
-            if len(dataframes) > 1:
-                merged_df = pd.concat(dataframes, ignore_index=True)
-                logging.info("Dataframes merged successfully")
-            else:
-                logging.warning("Not enough dataframes to merge")
-                merged_df = dataframes[0]
-            return merged_df
-        except Exception as e:
-            logging.error(f"Error merging dataframes: {e}")
-            raise e
+    
     
     def check_duplicates(self, df):
         try:
