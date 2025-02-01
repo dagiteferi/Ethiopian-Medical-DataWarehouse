@@ -66,37 +66,7 @@ class DetectionDataCleaning:
             logging.error(f"Error checking for missing values: {e}")
             raise e
     
-    def handle_missing_values(self, df):
-        try:
-            logging.info("Handling missing values by dropping rows with missing values...")
-            before_drop = df.shape[0]
-            df = df.dropna()
-            after_drop = df.shape[0]
-            logging.info(f"Dropped {before_drop - after_drop} rows with missing values")
-            return df
-        except Exception as e:
-            logging.error(f"Error handling missing values: {e}")
-            raise e
     
-    def clean_dataframe(self, df):
-        """Perform all cleaning and standardization steps."""
-        try:
-            df = self.handle_duplicates(df, self.check_duplicates(df))
-            df = self.handle_missing_values(df)
-            logging.info("Data cleaning completed successfully.")
-            return df
-        except Exception as e:
-            logging.error(f"Data cleaning error: {e}")
-            raise
     
-    def save_cleaned_data(self, df, output_path):
-        """Save cleaned data to a new CSV file."""
-        try:
-            df.to_csv(output_path, index=False)
-            logging.info(f"Cleaned data saved successfully to '{output_path}'.")
-            print(f"Cleaned data saved successfully to '{output_path}'.")
-        except Exception as e:
-            logging.error(f"Error saving cleaned data: {e}")
-            raise
-
+    
 
