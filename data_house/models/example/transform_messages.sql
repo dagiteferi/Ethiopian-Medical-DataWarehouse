@@ -1,5 +1,6 @@
 
 
+
 with cleaned_data as (
     select
         id,
