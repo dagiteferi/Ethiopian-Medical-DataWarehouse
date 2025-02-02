@@ -26,12 +26,7 @@ DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_PORT = os.getenv("DB_PORT")
 
-# Debugging: Print environment variables
-print(f"DB_HOST: {DB_HOST}")
-print(f"DB_DATABASE: {DB_DATABASE}")
-print(f"DB_USER: {DB_USER}")
-print(f"DB_PASSWORD: {DB_PASSWORD}")
-print(f"DB_PORT: {DB_PORT}")
+
 
 def get_db_connection():
     """ Create and return database engine. """
