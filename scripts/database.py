@@ -103,10 +103,9 @@ def insert_data(engine, cleaned_df):
         logging.info(f"{len(cleaned_df)} records inserted into PostgreSQL database.")
     except Exception as e:
         logging.error(f"Error inserting data: {e}")
-<<<<<<< HEAD
         raise
-=======
+
         raise
 
 
->>>>>>> main
+
