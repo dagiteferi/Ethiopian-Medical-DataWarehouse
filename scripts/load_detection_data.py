@@ -30,7 +30,7 @@ def get_db_connection():
     """ Create and return database engine. """
     try:
         DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_DATABASE}"
-        print(f"DATABASE_URL: {DATABASE_URL}")  # Debugging: Print DATABASE_URL
+        
         engine = create_engine(DATABASE_URL)
         with engine.connect() as connection:
             connection.execute(text("SELECT 1"))  # Test connection
@@ -51,7 +51,8 @@ def create_table(engine):
         y_center FLOAT,
         width FLOAT,
         height FLOAT,
-        confidence FLOAT
+        confidence FLOAT,
+        UNIQUE (file_name, class_id)  -- Add unique constraint here
     );
     """
     try:
@@ -62,6 +63,8 @@ def create_table(engine):
         logging.error(f"Error creating table: {e}")
         raise
 
+
+
 def insert_data(engine, cleaned_df):
     """ Inserts cleaned detection data into PostgreSQL database. """
     try:
@@ -69,7 +72,7 @@ def insert_data(engine, cleaned_df):
         INSERT INTO detection_results 
         (file_name, class_id, x_center, y_center, width, height, confidence) 
         VALUES (:file_name, :class_id, :x_center, :y_center, :width, :height, :confidence)
-        ON CONFLICT (file_name, class_id, x_center, y_center, width, height, confidence) DO NOTHING;
+        ON CONFLICT (file_name, class_id) DO NOTHING;  -- Use the columns with unique constraint
         """
 
         with engine.begin() as connection:  # Auto-commit enabled
@@ -94,4 +97,3 @@ def insert_data(engine, cleaned_df):
     except Exception as e:
         logging.error(f"Error inserting data: {e}")
         raise
-
