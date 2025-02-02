@@ -104,5 +104,3 @@ def insert_data(engine, cleaned_df):
     except Exception as e:
         logging.error(f"Error inserting data: {e}")
         raise
-
-

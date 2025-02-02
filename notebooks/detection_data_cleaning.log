@@ -8,3 +8,5 @@
 2025-02-01 20:42:48,211 - INFO - No duplicates found
 2025-02-01 20:42:48,234 - INFO - Checking for missing values...
 2025-02-01 20:42:48,277 - INFO - No missing values found
+2025-02-01 20:51:06,361 - INFO - Successfully connected to the PostgreSQL database.
+2025-02-01 20:51:07,742 - INFO - Table 'detection_results' created successfully.
