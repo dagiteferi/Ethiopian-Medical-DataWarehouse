@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 -- models/example/transform_messages.sql
+=======
+
+>>>>>>> main
 
 with cleaned_data as (
     select
