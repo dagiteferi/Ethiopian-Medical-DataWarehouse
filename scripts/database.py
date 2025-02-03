@@ -32,7 +32,7 @@ def get_db_connection():
     """ Create and return database engine. """
     try:
         DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_DATABASE}"
-        print(f"DATABASE_URL: {DATABASE_URL}")  # Debugging: Print DATABASE_URL
+        #print(f"DATABASE_URL: {DATABASE_URL}")  # Debugging: Print DATABASE_URL
         engine = create_engine(DATABASE_URL)
         with engine.connect() as connection:
             connection.execute(text("SELECT 1"))  # Test connection

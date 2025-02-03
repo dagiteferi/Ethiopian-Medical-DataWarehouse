@@ -1698,3 +1698,6 @@
 2025-02-02 23:10:34,276 - INFO - No missing values found
 2025-02-02 23:10:39,541 - INFO - Cleaned data saved successfully to 'c:\Users\Dagi\Documents\KAIM\week-7\Ethiopian-Medical-DataWarehouse\notebooks\../data/cleaned_data_final.csv'.
 2025-02-02 23:10:44,101 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+2025-02-02 23:46:12,447 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+2025-02-02 23:49:37,223 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+2025-02-02 23:49:46,791 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
