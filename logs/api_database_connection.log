@@ -1,2 +1,7 @@
 2025-02-03 16:27:57,149 - INFO - Database engine created.
 2025-02-03 16:27:59,679 - INFO - Database engine created.
+2025-02-03 16:53:52,137 - INFO - Database engine created.
+2025-02-03 16:53:52,145 - INFO - Starting model definitions.
+2025-02-03 16:53:52,145 - INFO - Defined TelegramMessage model.
+2025-02-03 16:53:52,265 - INFO - Defined DetectionResult model.
+2025-02-03 16:53:52,296 - INFO - Completed model definitions.
