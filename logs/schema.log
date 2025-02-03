@@ -1,0 +1,8 @@
+2025-02-03 17:03:50,839 - INFO - Starting schema definitions.
+2025-02-03 17:03:53,793 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 17:03:53,795 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 17:03:53,932 - INFO - Defined TelegramMessage schema.
+2025-02-03 17:03:53,934 - INFO - Defined DetectionResultBase schema.
+2025-02-03 17:03:53,936 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 17:03:53,940 - INFO - Defined DetectionResult schema.
+2025-02-03 17:03:53,941 - INFO - Completed schema definitions.
