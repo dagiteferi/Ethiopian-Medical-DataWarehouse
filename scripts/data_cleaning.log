@@ -1675,3 +1675,53 @@
 2025-01-31 18:03:43,651 - INFO - Inserting: 1242 - 2024-12-16 07:08:46+00:00
 2025-01-31 18:03:43,654 - INFO - Inserting: 1241 - 2024-12-13 06:49:28+00:00
 2025-01-31 18:03:43,691 - INFO - 1652 records inserted into PostgreSQL database.
+2025-02-02 23:09:25,493 - INFO - Loading the data
+2025-02-02 23:09:27,607 - INFO - Loading the data
+2025-02-02 23:09:27,985 - INFO - Loading the data
+2025-02-02 23:09:32,376 - INFO - Loading the data
+2025-02-02 23:09:38,420 - INFO - Merging dataframes...
+2025-02-02 23:09:39,166 - INFO - Dataframes merged successfully
+2025-02-02 23:10:05,190 - INFO - Duplicates removed from dataset.
+2025-02-02 23:10:07,736 - INFO - Date column formatted to datetime.
+2025-02-02 23:10:07,781 - INFO - Missing values filled.
+2025-02-02 23:10:08,160 - INFO - Text columns standardized.
+2025-02-02 23:10:08,242 - INFO - Emojis extracted and stored in 'emoji_used' column.
+2025-02-02 23:10:08,297 - INFO - YouTube links extracted and stored in 'youtube_links' column.
+2025-02-02 23:10:08,414 - INFO - Data cleaning completed successfully.
+2025-02-02 23:10:21,312 - INFO - Checking for duplicates...
+2025-02-02 23:10:22,181 - INFO - Found 26 duplicate rows
+2025-02-02 23:10:25,741 - INFO - Checking for missing values...
+2025-02-02 23:10:25,796 - INFO - Found 1 missing values
+2025-02-02 23:10:29,359 - INFO - Handling missing values by dropping rows with missing values...
+2025-02-02 23:10:29,366 - INFO - Dropped 1 rows with missing values
+2025-02-02 23:10:34,271 - INFO - Checking for missing values...
+2025-02-02 23:10:34,276 - INFO - No missing values found
+2025-02-02 23:10:39,541 - INFO - Cleaned data saved successfully to 'c:\Users\Dagi\Documents\KAIM\week-7\Ethiopian-Medical-DataWarehouse\notebooks\../data/cleaned_data_final.csv'.
+2025-02-02 23:10:44,101 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+2025-02-02 23:46:12,447 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+2025-02-02 23:49:37,223 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+2025-02-02 23:49:46,791 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+2025-02-02 23:58:25,553 - INFO - Loading the data
+2025-02-02 23:58:26,792 - INFO - Loading the data
+2025-02-02 23:58:26,876 - INFO - Loading the data
+2025-02-02 23:58:27,239 - INFO - Loading the data
+2025-02-02 23:58:28,273 - INFO - Merging dataframes...
+2025-02-02 23:58:28,277 - INFO - Dataframes merged successfully
+2025-02-02 23:58:29,747 - INFO - Duplicates removed from dataset.
+2025-02-02 23:58:30,257 - INFO - Date column formatted to datetime.
+2025-02-02 23:58:30,299 - INFO - Missing values filled.
+2025-02-02 23:58:30,416 - INFO - Text columns standardized.
+2025-02-02 23:58:30,561 - INFO - Emojis extracted and stored in 'emoji_used' column.
+2025-02-02 23:58:30,594 - INFO - YouTube links extracted and stored in 'youtube_links' column.
+2025-02-02 23:58:30,628 - INFO - Data cleaning completed successfully.
+2025-02-02 23:58:30,749 - INFO - Checking for duplicates...
+2025-02-02 23:58:30,974 - INFO - Found 26 duplicate rows
+2025-02-02 23:58:31,021 - INFO - Checking for missing values...
+2025-02-02 23:58:31,059 - INFO - Found 1 missing values
+2025-02-02 23:58:31,285 - INFO - Handling missing values by dropping rows with missing values...
+2025-02-02 23:58:31,298 - INFO - Dropped 1 rows with missing values
+2025-02-02 23:58:31,694 - INFO - Checking for missing values...
+2025-02-02 23:58:31,701 - INFO - No missing values found
+2025-02-02 23:58:32,379 - INFO - Cleaned data saved successfully to 'c:\Users\Dagi\Documents\KAIM\week-7\Ethiopian-Medical-DataWarehouse\notebooks\../data/cleaned_data_final.csv'.
+2025-02-02 23:58:32,399 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+2025-02-02 23:58:49,282 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
