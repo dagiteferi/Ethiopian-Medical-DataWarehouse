@@ -1725,6 +1725,7 @@
 2025-02-02 23:58:32,379 - INFO - Cleaned data saved successfully to 'c:\Users\Dagi\Documents\KAIM\week-7\Ethiopian-Medical-DataWarehouse\notebooks\../data/cleaned_data_final.csv'.
 2025-02-02 23:58:32,399 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
 2025-02-02 23:58:49,282 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
+
 2025-02-03 00:23:57,507 - ERROR - Database connection failed: invalid literal for int() with base 10: 'None'
 2025-02-03 00:26:40,240 - INFO - Loading the data
 2025-02-03 00:26:40,883 - INFO - Loading the data
@@ -3403,3 +3404,5 @@
 2025-02-03 00:29:20,462 - INFO - Inserting: 1242 - 2024-12-16 07:08:46+00:00
 2025-02-03 00:29:20,530 - INFO - Inserting: 1241 - 2024-12-13 06:49:28+00:00
 2025-02-03 00:29:20,722 - INFO - 1652 records inserted into PostgreSQL database.
+=======
+>>>>>>> main

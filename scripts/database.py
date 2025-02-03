@@ -105,4 +105,7 @@ def insert_data(engine, cleaned_df):
         logging.error(f"Error inserting data: {e}")
         raise
 
+        raise
+
+
 
