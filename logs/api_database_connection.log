@@ -138,3 +138,34 @@
 2025-02-04 00:08:50,227 - WARNING - Message with ID: 4 not found
 2025-02-04 00:08:50,241 - INFO - Received request to read messages with skip: 0 and limit: 10
 2025-02-04 00:08:50,246 - INFO - Retrieved 10 messages
+2025-02-04 00:17:48,637 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:17:48,798 - INFO - Retrieved 10 messages
+2025-02-04 00:17:57,858 - INFO - Received request to delete message with ID: 9
+2025-02-04 00:17:58,098 - INFO - Deleted message with ID: 70
+2025-02-04 00:17:58,179 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:17:58,231 - INFO - Retrieved 10 messages
+2025-02-04 00:18:56,793 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:18:57,652 - WARNING - Message with ID: 4 not found
+2025-02-04 00:18:57,653 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,560 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:19:03,562 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:19:03,562 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:19:03,562 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:19:03,598 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:03,777 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,781 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,836 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,837 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,841 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:04,006 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:04,006 - INFO - Retrieved 10 messages
+2025-02-04 00:19:04,301 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:04,302 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:05,016 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:05,048 - INFO - Retrieved 10 messages
+2025-02-04 00:19:05,547 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:05,550 - INFO - Retrieved 10 messages
+2025-02-04 00:19:05,559 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:05,581 - INFO - Retrieved 10 messages
+2025-02-04 00:19:05,593 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:05,890 - INFO - Retrieved 10 messages
