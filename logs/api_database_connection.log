@@ -173,3 +173,66 @@
 2025-02-04 00:24:15,005 - INFO - Retrieved 10 messages
 2025-02-04 00:25:27,650 - INFO - Received request to read messages with skip: 0 and limit: 10
 2025-02-04 00:25:27,711 - INFO - Retrieved 10 messages
+2025-02-04 00:29:03,792 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:03,928 - INFO - Retrieved 10 messages
+2025-02-04 00:29:12,205 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:29:12,854 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:12,854 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:12,869 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:12,890 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:29:12,983 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:12,984 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,018 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:29:13,091 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,170 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,341 - INFO - Retrieved 10 messages
+2025-02-04 00:29:13,343 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:29:13,425 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,430 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:13,471 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,542 - INFO - Retrieved 10 messages
+2025-02-04 00:29:13,559 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:13,566 - INFO - Retrieved 10 messages
+2025-02-04 00:29:13,580 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:13,586 - INFO - Retrieved 10 messages
+2025-02-04 00:29:14,906 - INFO - Received request to delete message with ID: 3
+2025-02-04 00:29:15,177 - INFO - Deleted message with ID: 74
+2025-02-04 00:29:15,191 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:15,220 - INFO - Retrieved 10 messages
+2025-02-04 00:34:52,280 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:34:55,647 - INFO - Retrieved 10 messages
+2025-02-04 00:34:56,354 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:34:57,102 - INFO - Retrieved 10 messages
+2025-02-04 00:35:15,127 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:15,204 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:15,205 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,024 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:16,127 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,128 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,690 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:16,790 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,790 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,941 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:16,944 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,945 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,136 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,161 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,162 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,316 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,318 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,319 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,446 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,449 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,450 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,636 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,696 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,697 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,840 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,842 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,843 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:18,055 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:18,103 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:18,104 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:18,300 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:18,319 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:18,320 - WARNING - Message with ID: 4 not found

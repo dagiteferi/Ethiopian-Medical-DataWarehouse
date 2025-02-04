@@ -112,7 +112,6 @@ async function editMessage(event) {
             const data = await response.json();
             console.log('Message updated:', data);
             form.reset();  // Clear form fields
-            form.onsubmit = createMessage;  // Revert back to create functionality
             fetchMessages();
         } catch (error) {
             console.error('Error updating message:', error);
@@ -128,9 +127,12 @@ async function deleteMessage(event) {
         const response = await fetch(`http://127.0.0.1:8000/messages/${id}`, {
             method: 'DELETE'
         });
-        const data = await response.json();
-        console.log('Message deleted:', data);
-        fetchMessages();
+        if (response.ok) {
+            console.log('Message deleted');
+            fetchMessages();
+        } else {
+            console.error('Error deleting message');
+        }
     } catch (error) {
         console.error('Error deleting message:', error);
     }
@@ -138,7 +140,6 @@ async function deleteMessage(event) {
 
 // Function to toggle the display of existing messages
 function toggleMessages() {
-    const contentContainer = document.getElementById('content-container');
     const content = document.getElementById('content');
     const toggleButton = document.getElementById('toggle-messages');
 
@@ -156,6 +157,5 @@ function toggleMessages() {
 document.getElementById('create-message-form').addEventListener('submit', createMessage);
 document.getElementById('toggle-messages').addEventListener('click', toggleMessages);
 window.onload = () => {
-
     document.getElementById('content').style.display = 'none';
 };
