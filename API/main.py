@@ -1,18 +1,19 @@
 import os
 import logging
 from fastapi import FastAPI, Depends, HTTPException
+from fastapi.staticfiles import StaticFiles
 from sqlalchemy.orm import Session
 from API import crud, models, schemas, database
 
-
-
+# Initialize FastAPI application
 app = FastAPI()
 
-# Add a simple root route
+# Serve static files from the 'frontEnd' folder
+app.mount("/static", StaticFiles(directory="API/frontEnd"), name="static")
+
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the FastAPI application!"}
-
 
 # Ensure logs folder exists
 os.makedirs("logs", exist_ok=True)
@@ -32,9 +33,6 @@ logging.info("Starting FastAPI application.")
 
 # Create the database tables
 models.Base.metadata.create_all(bind=database.engine)
-
-# Initialize FastAPI application
-app = FastAPI()
 
 # Dependency to provide a database session
 def get_db():

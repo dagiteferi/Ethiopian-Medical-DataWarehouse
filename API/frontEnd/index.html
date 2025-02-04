@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI Front-End</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FastAPI Front-End</h1>
+        <div class="form-container">
+            <h2>Create Telegram Message</h2>
+            <form id="create-message-form">
+                <div class="form-group">
+                    <label for="channel_title">Channel Title:</label>
+                    <input type="text" id="channel_title" placeholder="Channel Title" required>
+                </div>
+                <div class="form-group">
+                    <label for="channel_username">Channel Username:</label>
+                    <input type="text" id="channel_username" placeholder="Channel Username" required>
+                </div>
+                <div class="form-group">
+                    <label for="message_id">Message ID:</label>
+                    <input type="number" id="message_id" placeholder="Message ID" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="message_date">Message Date:</label>
+                    <input type="datetime-local" id="message_date" required>
+                </div>
+                <div class="form-group">
+                    <label for="media_path">Media Path:</label>
+                    <input type="text" id="media_path" placeholder="Media Path" required>
+                </div>
+                <div class="form-group">
+                    <label for="emoji_used">Emoji Used:</label>
+                    <input type="text" id="emoji_used" placeholder="Emoji Used" required>
+                </div>
+                <div class="form-group">
+                    <label for="youtube_links">YouTube Links:</label>
+                    <input type="text" id="youtube_links" placeholder="YouTube Links" required>
+                </div>
+                <button type="submit" class="btn">Create Message</button>
+            </form>
+            <p id="success-message" style="display:none; color:green;">Message created successfully!</p>
+        </div>
+        <div id="content-container">
+            <button id="toggle-messages" class="btn">Show Existing Telegram Messages</button>
+            <div id="content" style="display: none;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
