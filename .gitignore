@@ -1,10 +1,8 @@
-data
-week-7
+data/
+week-7/
 .env
-
 scraping_session.session
 scraping_session.session-journal
-photos
 scripts/scripts\__pycache__
 __pycache__
-photos
+
