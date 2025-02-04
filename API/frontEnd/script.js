@@ -112,6 +112,7 @@ async function editMessage(event) {
             const data = await response.json();
             console.log('Message updated:', data);
             form.reset();  // Clear form fields
+            form.onsubmit = createMessage;  // Revert back to create functionality
             fetchMessages();
         } catch (error) {
             console.error('Error updating message:', error);
@@ -155,5 +156,6 @@ function toggleMessages() {
 document.getElementById('create-message-form').addEventListener('submit', createMessage);
 document.getElementById('toggle-messages').addEventListener('click', toggleMessages);
 window.onload = () => {
+
     document.getElementById('content').style.display = 'none';
 };

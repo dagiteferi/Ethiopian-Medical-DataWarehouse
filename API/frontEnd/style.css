@@ -71,7 +71,7 @@ button.btn:hover {
 
 #content {
     margin-top: 20px;
-    display: none;  // Initially hide the messages
+    display: none; 
 }
 
 .message-card {
