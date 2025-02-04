@@ -5,4 +5,5 @@ week-7
 scraping_session.session
 scraping_session.session-journal
 photos
-scripts/__pycache__
+scripts/scripts\__pycache__
+__pycache__
