@@ -1,0 +1,17 @@
+2025-02-03 22:03:43,947 - INFO - Database engine created.
+2025-02-03 22:03:44,011 - INFO - Starting model definitions.
+2025-02-03 22:03:44,012 - INFO - Defined TelegramMessage model.
+2025-02-03 22:03:44,016 - INFO - Defined DetectionResult model.
+2025-02-03 22:03:44,020 - INFO - Completed model definitions.
+2025-02-03 22:03:44,047 - INFO - Starting schema definitions.
+2025-02-03 22:03:44,065 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:03:44,069 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:03:44,073 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:03:44,076 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:03:44,080 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:03:44,083 - INFO - Defined DetectionResult schema.
+2025-02-03 22:03:44,084 - INFO - Completed schema definitions.
+2025-02-03 22:03:44,086 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:03:44,086 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:03:44,088 - INFO - Starting FastAPI application.
+2025-02-03 22:03:47,041 - INFO - FastAPI application is ready.

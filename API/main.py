@@ -6,6 +6,14 @@ from API import crud, models, schemas, database
 
 
 
+app = FastAPI()
+
+# Add a simple root route
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the FastAPI application!"}
+
+
 # Ensure logs folder exists
 os.makedirs("logs", exist_ok=True)
 
