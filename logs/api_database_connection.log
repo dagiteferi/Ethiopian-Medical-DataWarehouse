@@ -123,3 +123,18 @@
 2025-02-04 00:07:12,406 - WARNING - Message with ID: 4 not found
 2025-02-04 00:07:12,421 - INFO - Received request to read messages with skip: 0 and limit: 10
 2025-02-04 00:07:12,425 - INFO - Retrieved 10 messages
+2025-02-04 00:08:21,623 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:08:21,627 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:21,628 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:21,642 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:08:21,667 - INFO - Retrieved 10 messages
+2025-02-04 00:08:23,451 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:08:23,454 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:23,455 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:23,512 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:08:23,515 - INFO - Retrieved 10 messages
+2025-02-04 00:08:50,222 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:08:50,226 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:50,227 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:50,241 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:08:50,246 - INFO - Retrieved 10 messages
