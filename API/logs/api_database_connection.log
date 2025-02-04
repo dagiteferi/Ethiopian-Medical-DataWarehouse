@@ -15,3 +15,37 @@
 2025-02-03 22:03:44,086 - INFO - Completed CRUD operations definitions.
 2025-02-03 22:03:44,088 - INFO - Starting FastAPI application.
 2025-02-03 22:03:47,041 - INFO - FastAPI application is ready.
+2025-02-03 22:07:44,094 - INFO - Database engine created.
+2025-02-03 22:07:44,098 - INFO - Starting model definitions.
+2025-02-03 22:07:44,100 - INFO - Defined TelegramMessage model.
+2025-02-03 22:07:44,118 - INFO - Defined DetectionResult model.
+2025-02-03 22:07:44,129 - INFO - Completed model definitions.
+2025-02-03 22:07:44,153 - INFO - Starting schema definitions.
+2025-02-03 22:07:44,159 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:07:44,163 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:07:44,168 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:07:44,175 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:07:44,178 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:07:44,183 - INFO - Defined DetectionResult schema.
+2025-02-03 22:07:44,183 - INFO - Completed schema definitions.
+2025-02-03 22:07:44,185 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:07:44,219 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:07:44,240 - INFO - Starting FastAPI application.
+2025-02-03 22:07:44,494 - INFO - FastAPI application is ready.
+2025-02-03 22:08:26,743 - INFO - Database engine created.
+2025-02-03 22:08:26,744 - INFO - Starting model definitions.
+2025-02-03 22:08:29,582 - INFO - Defined TelegramMessage model.
+2025-02-03 22:08:29,591 - INFO - Defined DetectionResult model.
+2025-02-03 22:08:29,598 - INFO - Completed model definitions.
+2025-02-03 22:08:29,602 - INFO - Starting schema definitions.
+2025-02-03 22:08:29,608 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:08:29,611 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:08:29,621 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:08:29,628 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:08:29,638 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:08:29,642 - INFO - Defined DetectionResult schema.
+2025-02-03 22:08:29,643 - INFO - Completed schema definitions.
+2025-02-03 22:08:29,644 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:08:29,645 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:08:29,655 - INFO - Starting FastAPI application.
+2025-02-03 22:08:30,142 - INFO - FastAPI application is ready.
