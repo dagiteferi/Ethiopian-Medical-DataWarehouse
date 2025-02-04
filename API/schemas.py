@@ -30,6 +30,9 @@ class TelegramMessageBase(BaseModel):
     emoji_used: str
     youtube_links: str
 
+    class Config:
+        from_attributes = True
+
 logging.info("Defined TelegramMessageBase schema.")
 
 class TelegramMessageCreate(TelegramMessageBase):
@@ -41,7 +44,7 @@ class TelegramMessage(TelegramMessageBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 logging.info("Defined TelegramMessage schema.")
 
@@ -55,6 +58,9 @@ class DetectionResultBase(BaseModel):
     height: float
     confidence: float
 
+    class Config:
+        from_attributes = True
+
 logging.info("Defined DetectionResultBase schema.")
 
 class DetectionResultCreate(DetectionResultBase):
@@ -66,7 +72,7 @@ class DetectionResult(DetectionResultBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 logging.info("Defined DetectionResult schema.")
 

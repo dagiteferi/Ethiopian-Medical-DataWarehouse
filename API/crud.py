@@ -1,7 +1,8 @@
 import os
 import logging
 from sqlalchemy.orm import Session
-from . import models, schemas
+from API import models, schemas
+
 
 # Ensure logs folder exists
 os.makedirs("logs", exist_ok=True)

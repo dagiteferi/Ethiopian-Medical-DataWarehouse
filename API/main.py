@@ -2,7 +2,9 @@ import os
 import logging
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
-from . import crud, models, schemas, database
+from API import crud, models, schemas, database
+
+
 
 # Ensure logs folder exists
 os.makedirs("logs", exist_ok=True)
