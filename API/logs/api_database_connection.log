@@ -1,0 +1,126 @@
+2025-02-03 22:03:43,947 - INFO - Database engine created.
+2025-02-03 22:03:44,011 - INFO - Starting model definitions.
+2025-02-03 22:03:44,012 - INFO - Defined TelegramMessage model.
+2025-02-03 22:03:44,016 - INFO - Defined DetectionResult model.
+2025-02-03 22:03:44,020 - INFO - Completed model definitions.
+2025-02-03 22:03:44,047 - INFO - Starting schema definitions.
+2025-02-03 22:03:44,065 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:03:44,069 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:03:44,073 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:03:44,076 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:03:44,080 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:03:44,083 - INFO - Defined DetectionResult schema.
+2025-02-03 22:03:44,084 - INFO - Completed schema definitions.
+2025-02-03 22:03:44,086 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:03:44,086 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:03:44,088 - INFO - Starting FastAPI application.
+2025-02-03 22:03:47,041 - INFO - FastAPI application is ready.
+2025-02-03 22:07:44,094 - INFO - Database engine created.
+2025-02-03 22:07:44,098 - INFO - Starting model definitions.
+2025-02-03 22:07:44,100 - INFO - Defined TelegramMessage model.
+2025-02-03 22:07:44,118 - INFO - Defined DetectionResult model.
+2025-02-03 22:07:44,129 - INFO - Completed model definitions.
+2025-02-03 22:07:44,153 - INFO - Starting schema definitions.
+2025-02-03 22:07:44,159 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:07:44,163 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:07:44,168 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:07:44,175 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:07:44,178 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:07:44,183 - INFO - Defined DetectionResult schema.
+2025-02-03 22:07:44,183 - INFO - Completed schema definitions.
+2025-02-03 22:07:44,185 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:07:44,219 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:07:44,240 - INFO - Starting FastAPI application.
+2025-02-03 22:07:44,494 - INFO - FastAPI application is ready.
+2025-02-03 22:08:26,743 - INFO - Database engine created.
+2025-02-03 22:08:26,744 - INFO - Starting model definitions.
+2025-02-03 22:08:29,582 - INFO - Defined TelegramMessage model.
+2025-02-03 22:08:29,591 - INFO - Defined DetectionResult model.
+2025-02-03 22:08:29,598 - INFO - Completed model definitions.
+2025-02-03 22:08:29,602 - INFO - Starting schema definitions.
+2025-02-03 22:08:29,608 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:08:29,611 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:08:29,621 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:08:29,628 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:08:29,638 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:08:29,642 - INFO - Defined DetectionResult schema.
+2025-02-03 22:08:29,643 - INFO - Completed schema definitions.
+2025-02-03 22:08:29,644 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:08:29,645 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:08:29,655 - INFO - Starting FastAPI application.
+2025-02-03 22:08:30,142 - INFO - FastAPI application is ready.
+2025-02-03 22:27:34,246 - INFO - Database engine created.
+2025-02-03 22:27:34,533 - INFO - Starting model definitions.
+2025-02-03 22:27:34,534 - INFO - Defined TelegramMessage model.
+2025-02-03 22:27:34,550 - INFO - Defined DetectionResult model.
+2025-02-03 22:27:34,555 - INFO - Completed model definitions.
+2025-02-03 22:27:34,589 - INFO - Starting schema definitions.
+2025-02-03 22:27:34,777 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:27:34,779 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:27:34,781 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:27:34,782 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:27:34,784 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:27:34,786 - INFO - Defined DetectionResult schema.
+2025-02-03 22:27:34,787 - INFO - Completed schema definitions.
+2025-02-03 22:27:34,788 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:27:34,788 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:28:31,247 - INFO - Database engine created.
+2025-02-03 22:28:31,249 - INFO - Starting model definitions.
+2025-02-03 22:28:31,250 - INFO - Defined TelegramMessage model.
+2025-02-03 22:28:31,259 - INFO - Defined DetectionResult model.
+2025-02-03 22:28:31,265 - INFO - Completed model definitions.
+2025-02-03 22:28:31,270 - INFO - Starting schema definitions.
+2025-02-03 22:28:31,273 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:28:31,278 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:28:31,280 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:28:31,282 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:28:31,283 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:28:31,285 - INFO - Defined DetectionResult schema.
+2025-02-03 22:28:31,286 - INFO - Completed schema definitions.
+2025-02-03 22:28:31,287 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:28:31,288 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:29:26,955 - INFO - Database engine created.
+2025-02-03 22:29:26,956 - INFO - Starting model definitions.
+2025-02-03 22:29:26,957 - INFO - Defined TelegramMessage model.
+2025-02-03 22:29:26,961 - INFO - Defined DetectionResult model.
+2025-02-03 22:29:26,965 - INFO - Completed model definitions.
+2025-02-03 22:29:26,968 - INFO - Starting schema definitions.
+2025-02-03 22:29:26,974 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:29:26,982 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:29:26,993 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:29:27,013 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:29:27,015 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:29:27,017 - INFO - Defined DetectionResult schema.
+2025-02-03 22:29:27,018 - INFO - Completed schema definitions.
+2025-02-03 22:29:27,020 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:29:27,024 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:39:04,254 - INFO - Database engine created.
+2025-02-03 22:39:04,301 - INFO - Starting model definitions.
+2025-02-03 22:39:04,305 - INFO - Defined TelegramMessage model.
+2025-02-03 22:39:04,324 - INFO - Defined DetectionResult model.
+2025-02-03 22:39:04,333 - INFO - Completed model definitions.
+2025-02-03 22:39:04,349 - INFO - Starting schema definitions.
+2025-02-03 22:39:04,370 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:39:04,373 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:39:04,420 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:39:04,422 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:39:04,424 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:39:04,427 - INFO - Defined DetectionResult schema.
+2025-02-03 22:39:04,427 - INFO - Completed schema definitions.
+2025-02-03 22:39:04,429 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:39:04,432 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:41:03,948 - INFO - Database engine created.
+2025-02-03 22:41:03,999 - INFO - Starting model definitions.
+2025-02-03 22:41:04,002 - INFO - Defined TelegramMessage model.
+2025-02-03 22:41:04,032 - INFO - Defined DetectionResult model.
+2025-02-03 22:41:04,868 - INFO - Completed model definitions.
+2025-02-03 22:41:05,000 - INFO - Starting schema definitions.
+2025-02-03 22:41:05,052 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:41:05,071 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:41:05,084 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:41:05,090 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:41:05,095 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:41:05,111 - INFO - Defined DetectionResult schema.
+2025-02-03 22:41:05,111 - INFO - Completed schema definitions.
+2025-02-03 22:41:05,114 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:41:05,126 - INFO - Completed CRUD operations definitions.

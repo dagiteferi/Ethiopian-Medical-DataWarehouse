@@ -1,0 +1,250 @@
+2025-02-03 16:27:57,149 - INFO - Database engine created.
+2025-02-03 16:27:59,679 - INFO - Database engine created.
+2025-02-03 16:53:52,137 - INFO - Database engine created.
+2025-02-03 16:53:52,145 - INFO - Starting model definitions.
+2025-02-03 16:53:52,145 - INFO - Defined TelegramMessage model.
+2025-02-03 16:53:52,265 - INFO - Defined DetectionResult model.
+2025-02-03 16:53:52,296 - INFO - Completed model definitions.
+2025-02-03 21:55:15,596 - INFO - Database engine created.
+2025-02-03 21:55:15,659 - INFO - Starting model definitions.
+2025-02-03 21:55:15,660 - INFO - Defined TelegramMessage model.
+2025-02-03 21:55:15,677 - INFO - Defined DetectionResult model.
+2025-02-03 21:55:15,689 - INFO - Completed model definitions.
+2025-02-03 21:55:15,775 - INFO - Starting schema definitions.
+2025-02-03 21:55:15,858 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 21:55:15,863 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 21:55:15,991 - INFO - Defined TelegramMessage schema.
+2025-02-03 21:55:15,994 - INFO - Defined DetectionResultBase schema.
+2025-02-03 21:55:15,996 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 21:55:16,000 - INFO - Defined DetectionResult schema.
+2025-02-03 21:55:16,001 - INFO - Completed schema definitions.
+2025-02-03 21:55:16,003 - INFO - Starting CRUD operations definitions.
+2025-02-03 21:55:16,004 - INFO - Completed CRUD operations definitions.
+2025-02-03 21:55:16,006 - INFO - Starting FastAPI application.
+2025-02-03 21:55:17,740 - INFO - FastAPI application is ready.
+2025-02-03 21:57:51,378 - INFO - Database engine created.
+2025-02-03 21:57:51,464 - INFO - Starting model definitions.
+2025-02-03 21:57:51,465 - INFO - Defined TelegramMessage model.
+2025-02-03 21:57:51,470 - INFO - Defined DetectionResult model.
+2025-02-03 21:57:51,473 - INFO - Completed model definitions.
+2025-02-03 21:57:51,512 - INFO - Starting schema definitions.
+2025-02-03 21:57:51,552 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 21:57:51,554 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 21:57:51,556 - INFO - Defined TelegramMessage schema.
+2025-02-03 21:57:51,562 - INFO - Defined DetectionResultBase schema.
+2025-02-03 21:57:51,566 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 21:57:51,568 - INFO - Defined DetectionResult schema.
+2025-02-03 21:57:51,569 - INFO - Completed schema definitions.
+2025-02-03 21:57:51,570 - INFO - Starting CRUD operations definitions.
+2025-02-03 21:57:51,572 - INFO - Completed CRUD operations definitions.
+2025-02-03 21:57:51,573 - INFO - Starting FastAPI application.
+2025-02-03 21:58:01,389 - INFO - FastAPI application is ready.
+2025-02-03 22:47:02,698 - INFO - Database engine created.
+2025-02-03 22:47:02,713 - INFO - Starting model definitions.
+2025-02-03 22:47:02,714 - INFO - Defined TelegramMessage model.
+2025-02-03 22:47:02,722 - INFO - Defined DetectionResult model.
+2025-02-03 22:47:02,727 - INFO - Completed model definitions.
+2025-02-03 22:47:02,734 - INFO - Starting schema definitions.
+2025-02-03 22:47:02,740 - INFO - Defined TelegramMessageBase schema.
+2025-02-03 22:47:02,754 - INFO - Defined TelegramMessageCreate schema.
+2025-02-03 22:47:02,767 - INFO - Defined TelegramMessage schema.
+2025-02-03 22:47:02,770 - INFO - Defined DetectionResultBase schema.
+2025-02-03 22:47:02,781 - INFO - Defined DetectionResultCreate schema.
+2025-02-03 22:47:02,783 - INFO - Defined DetectionResult schema.
+2025-02-03 22:47:02,784 - INFO - Completed schema definitions.
+2025-02-03 22:47:02,786 - INFO - Starting CRUD operations definitions.
+2025-02-03 22:47:02,795 - INFO - Completed CRUD operations definitions.
+2025-02-03 22:47:02,833 - INFO - Starting FastAPI application.
+2025-02-03 22:47:05,737 - INFO - FastAPI application is ready.
+2025-02-03 22:55:00,161 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-03 22:55:04,232 - INFO - Retrieved 10 messages
+2025-02-03 22:55:26,260 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-03 22:55:26,367 - INFO - Retrieved 10 messages
+2025-02-03 22:55:28,646 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-03 22:55:28,653 - INFO - Retrieved 10 messages
+2025-02-03 22:57:45,930 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-03 22:57:46,104 - INFO - Retrieved 10 messages
+2025-02-03 23:00:09,899 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-03 23:00:11,056 - INFO - Retrieved 10 messages
+2025-02-03 23:04:35,834 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-03 23:04:36,029 - INFO - Retrieved 10 messages
+2025-02-04 00:06:08,223 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:10,508 - INFO - Retrieved 10 messages
+2025-02-04 00:06:10,874 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:10,931 - INFO - Retrieved 10 messages
+2025-02-04 00:06:45,431 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:06:46,249 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:06:46,267 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:06:47,302 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:06:47,659 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:06:48,218 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:06:49,201 - INFO - Deleted message with ID: 73
+2025-02-04 00:06:49,251 - INFO - Deleted message with ID: 73
+2025-02-04 00:06:49,252 - INFO - Deleted message with ID: 73
+2025-02-04 00:06:49,296 - INFO - Deleted message with ID: 73
+2025-02-04 00:06:49,346 - INFO - Deleted message with ID: 73
+2025-02-04 00:06:50,039 - INFO - Deleted message with ID: 73
+2025-02-04 00:06:50,065 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:06:50,068 - WARNING - Message with ID: 4 not found
+2025-02-04 00:06:50,069 - WARNING - Message with ID: 4 not found
+2025-02-04 00:06:50,093 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:50,098 - INFO - Retrieved 10 messages
+2025-02-04 00:06:50,187 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:50,189 - INFO - Retrieved 10 messages
+2025-02-04 00:06:50,198 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:50,245 - INFO - Retrieved 10 messages
+2025-02-04 00:06:50,253 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:50,306 - INFO - Retrieved 10 messages
+2025-02-04 00:06:50,319 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:50,322 - INFO - Retrieved 10 messages
+2025-02-04 00:06:50,331 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:50,334 - INFO - Retrieved 10 messages
+2025-02-04 00:06:50,349 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:06:50,352 - INFO - Retrieved 10 messages
+2025-02-04 00:07:00,975 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:07:00,982 - INFO - Retrieved 10 messages
+2025-02-04 00:07:08,246 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:07:08,248 - WARNING - Message with ID: 4 not found
+2025-02-04 00:07:08,248 - WARNING - Message with ID: 4 not found
+2025-02-04 00:07:08,262 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:07:08,265 - INFO - Retrieved 10 messages
+2025-02-04 00:07:09,777 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:07:09,780 - WARNING - Message with ID: 4 not found
+2025-02-04 00:07:09,781 - WARNING - Message with ID: 4 not found
+2025-02-04 00:07:09,795 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:07:09,824 - INFO - Retrieved 10 messages
+2025-02-04 00:07:11,072 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:07:11,077 - WARNING - Message with ID: 4 not found
+2025-02-04 00:07:11,078 - WARNING - Message with ID: 4 not found
+2025-02-04 00:07:11,090 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:07:11,129 - INFO - Retrieved 10 messages
+2025-02-04 00:07:12,404 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:07:12,406 - WARNING - Message with ID: 4 not found
+2025-02-04 00:07:12,406 - WARNING - Message with ID: 4 not found
+2025-02-04 00:07:12,421 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:07:12,425 - INFO - Retrieved 10 messages
+2025-02-04 00:08:21,623 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:08:21,627 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:21,628 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:21,642 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:08:21,667 - INFO - Retrieved 10 messages
+2025-02-04 00:08:23,451 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:08:23,454 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:23,455 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:23,512 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:08:23,515 - INFO - Retrieved 10 messages
+2025-02-04 00:08:50,222 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:08:50,226 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:50,227 - WARNING - Message with ID: 4 not found
+2025-02-04 00:08:50,241 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:08:50,246 - INFO - Retrieved 10 messages
+2025-02-04 00:17:48,637 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:17:48,798 - INFO - Retrieved 10 messages
+2025-02-04 00:17:57,858 - INFO - Received request to delete message with ID: 9
+2025-02-04 00:17:58,098 - INFO - Deleted message with ID: 70
+2025-02-04 00:17:58,179 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:17:58,231 - INFO - Retrieved 10 messages
+2025-02-04 00:18:56,793 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:18:57,652 - WARNING - Message with ID: 4 not found
+2025-02-04 00:18:57,653 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,560 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:19:03,562 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:19:03,562 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:19:03,562 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:19:03,598 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:03,777 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,781 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,836 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,837 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:03,841 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:04,006 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:04,006 - INFO - Retrieved 10 messages
+2025-02-04 00:19:04,301 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:04,302 - WARNING - Message with ID: 4 not found
+2025-02-04 00:19:05,016 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:05,048 - INFO - Retrieved 10 messages
+2025-02-04 00:19:05,547 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:05,550 - INFO - Retrieved 10 messages
+2025-02-04 00:19:05,559 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:05,581 - INFO - Retrieved 10 messages
+2025-02-04 00:19:05,593 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:19:05,890 - INFO - Retrieved 10 messages
+2025-02-04 00:24:14,907 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:24:15,005 - INFO - Retrieved 10 messages
+2025-02-04 00:25:27,650 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:25:27,711 - INFO - Retrieved 10 messages
+2025-02-04 00:29:03,792 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:03,928 - INFO - Retrieved 10 messages
+2025-02-04 00:29:12,205 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:29:12,854 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:12,854 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:12,869 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:12,890 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:29:12,983 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:12,984 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,018 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:29:13,091 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,170 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,341 - INFO - Retrieved 10 messages
+2025-02-04 00:29:13,343 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:29:13,425 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,430 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:13,471 - WARNING - Message with ID: 4 not found
+2025-02-04 00:29:13,542 - INFO - Retrieved 10 messages
+2025-02-04 00:29:13,559 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:13,566 - INFO - Retrieved 10 messages
+2025-02-04 00:29:13,580 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:13,586 - INFO - Retrieved 10 messages
+2025-02-04 00:29:14,906 - INFO - Received request to delete message with ID: 3
+2025-02-04 00:29:15,177 - INFO - Deleted message with ID: 74
+2025-02-04 00:29:15,191 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:29:15,220 - INFO - Retrieved 10 messages
+2025-02-04 00:34:52,280 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:34:55,647 - INFO - Retrieved 10 messages
+2025-02-04 00:34:56,354 - INFO - Received request to read messages with skip: 0 and limit: 10
+2025-02-04 00:34:57,102 - INFO - Retrieved 10 messages
+2025-02-04 00:35:15,127 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:15,204 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:15,205 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,024 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:16,127 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,128 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,690 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:16,790 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,790 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,941 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:16,944 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:16,945 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,136 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,161 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,162 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,316 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,318 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,319 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,446 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,449 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,450 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,636 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,696 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,697 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,840 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:17,842 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:17,843 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:18,055 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:18,103 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:18,104 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:18,300 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:18,319 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:18,320 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:40,757 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:40,804 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:40,805 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:42,306 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:42,308 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:42,309 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:44,684 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:44,687 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:44,687 - WARNING - Message with ID: 4 not found
+2025-02-04 00:36:00,974 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:36:00,978 - WARNING - Message with ID: 4 not found
+2025-02-04 00:36:00,978 - WARNING - Message with ID: 4 not found
