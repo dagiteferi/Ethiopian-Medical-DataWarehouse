@@ -236,3 +236,15 @@
 2025-02-04 00:35:18,300 - INFO - Received request to delete message with ID: 4
 2025-02-04 00:35:18,319 - WARNING - Message with ID: 4 not found
 2025-02-04 00:35:18,320 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:40,757 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:40,804 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:40,805 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:42,306 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:42,308 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:42,309 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:44,684 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:35:44,687 - WARNING - Message with ID: 4 not found
+2025-02-04 00:35:44,687 - WARNING - Message with ID: 4 not found
+2025-02-04 00:36:00,974 - INFO - Received request to delete message with ID: 4
+2025-02-04 00:36:00,978 - WARNING - Message with ID: 4 not found
+2025-02-04 00:36:00,978 - WARNING - Message with ID: 4 not found
