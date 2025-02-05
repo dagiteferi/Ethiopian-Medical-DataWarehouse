@@ -47,13 +47,13 @@ A centralized data warehouse allows for efficient and effective data analysis. B
 - PostgreSQL
 - YOLO (You Only Look Once)
 - FastAPI
-- DBT(Data Build Tool
+- DBT(Data Build Tool)
 - Python
 
 ## Folder Organization
  ```bash
    Directory structure:
-└── dagiteferi-ethiopian-medical-datawarehouse
+└── Ethiopian-medical-datawarehouse
     ├── requirements.txt
     ├── yolov5s.pt
     ├── API/
