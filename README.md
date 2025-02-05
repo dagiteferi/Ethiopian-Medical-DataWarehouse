@@ -52,7 +52,71 @@ A centralized data warehouse allows for efficient and effective data analysis. B
 
 ## Folder Organization
  ```bash
------------------------------------------------------------------
+   Directory structure:
+└── dagiteferi-ethiopian-medical-datawarehouse
+    ├── requirements.txt
+    ├── yolov5s.pt
+    ├── API/
+    │   ├── crud.py
+    │   ├── database.py
+    │   ├── main.py
+    │   ├── models.py
+    │   ├── schemas.py
+    │   ├── frontEnd/
+    │   │   ├── index.html
+    │   │   ├── script.js
+    │   │   └── style.css
+    ├── data_house/
+    │   ├── dbt_project.yml
+    │   ├── .gitignore
+    │   ├── analyses/
+    │   │   └── .gitkeep
+    │   ├── logs/
+    │   ├── macros/
+    │   │   └── .gitkeep
+    │   ├── models/
+    │   │   ├── example/
+    │   │   │   ├── my_first_dbt_model.sql
+    │   │   │   ├── my_second_dbt_model.sql
+    │   │   │   ├── schema.yml
+    │   │   │   └── transform_messages.sql
+    │   │   └── sources/
+    │   │       └── sources.yml
+    │   ├── seeds/
+    │   │   └── .gitkeep
+    │   ├── snapshots/
+    │   │   └── .gitkeep
+    │   │   ├── compiled/
+    │   │   │   └── data_house/
+    │   │   │       └── models/
+    │   │   │           └── example/
+    │   │   │               ├── my_first_dbt_model.sql
+    │   │   │               ├── my_second_dbt_model.sql
+    │   │   │               ├── transform_messages.sql  
+    ├── notebooks/
+    │   ├── README.md
+    │   ├── DataCleaningTransformation.ipynb
+    │   ├── YOLO.ipynb
+    │   ├── __init__.py
+    │   └── detection_data_cleaning_load.ipynb
+    ├── scripts/
+    │   ├── README.md
+    │   ├── DataCleaningTransformation.py
+    │   ├── __init__.py
+    │   ├── database.py
+    │   ├── detection_data_cleaning.py
+    │   ├── load_detection_data.py
+    │   ├── yolo_object_detection.py
+    ├── src/
+    │   ├── __init__.py
+    │   ├── file_structure.py
+    │   └── scraper.py
+    ├── tests/
+    │   └── __init__.py
+    └── .github/
+        └── workflows/
+            └── unittests.yml
+
 ```
 
 
